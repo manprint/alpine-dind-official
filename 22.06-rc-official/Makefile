@@ -12,8 +12,7 @@ export RESET := $(shell tput sgr0)
 export DATE_NOW := $(shell date)
 
 .DEFAULT := help
-
-IMAGE := "fabiop85/dind:22.06-rc-official"
+IMAGE := "ghcr.io/manprint/dind:22.06-rc-official"
 GITHUB_CREDS := $(shell pass Github/Manprint/Token)
 
 help:

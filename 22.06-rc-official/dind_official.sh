@@ -66,7 +66,7 @@ function up() {
 		-v vol_alpine_home:/home/alpine \
 		--privileged \
 		-p 2375:2375 \
-		fabiop85/dind:22.06-rc-official
+		ghcr.io/manprint/dind:22.06-rc-official
 }
 
 if [ "_$1" = "_" ]; then
